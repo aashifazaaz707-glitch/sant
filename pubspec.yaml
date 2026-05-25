@@ -21,7 +21,7 @@ dependencies:
   
   # UI Styles & Visuals
   google_fonts: ^6.1.0
-  lucide_icons: ^0.257.0
+  lucide_icons_flutter: ^2.0.6
   
   # PDF study materials viewer (Cross-platform Web & Mobile support)
   syncfusion_flutter_pdfviewer: ^24.2.7
