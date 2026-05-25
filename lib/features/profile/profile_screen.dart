@@ -96,7 +96,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
             'STUDENT PROFILE HUB',
             style: Theme.of(context).textTheme.headlineMedium?.copyWith(
                   fontSize: isDesktop ? 22 : 16,
-                  fontWeight: FontWeight.black,
+                  fontWeight: FontWeight.w900,
                   letterSpacing: 0.5,
                 ),
           ),
@@ -144,7 +144,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
   Widget _buildLoginPanel(BuildContext context) {
     return Center(
       child: Container(
-        maxWidth: 420,
+        constraints: const BoxConstraints(maxWidth: 420),
         margin: const EdgeInsets.only(top: 40),
         child: Card(
           child: Padding(
@@ -167,7 +167,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 Center(
                   child: Text(
                     'STUDENT PORTAL LOGIN',
-                    style: GoogleFonts.poppins(fontSize: 16, fontWeight: FontWeight.black, letterSpacing: 0.5),
+                    style: GoogleFonts.poppins(fontSize: 16, fontWeight: FontWeight.w900, letterSpacing: 0.5),
                   ),
                 ),
                 const SizedBox(height: 24),
@@ -216,7 +216,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Row(
-              mainAxisAlignment: MainAxisAlignment.between,
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
                   'ACADEMIC CONFIG',
@@ -350,7 +350,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 return Padding(
                   padding: const EdgeInsets.symmetric(vertical: 8),
                   child: Row(
-                    mainAxisAlignment: MainAxisAlignment.between,
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Row(
                         children: [
@@ -384,12 +384,12 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         children: [
                           Text(
                             att['score'],
-                            style: const TextStyle(fontSize: 12, fontWeight: FontWeight.black),
+                            style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w900),
                           ),
                           const SizedBox(height: 2),
                           Text(
                             att['status'],
-                            style: const TextStyle(fontSize: 8, color: Colors.green, fontWeight: FontWeight.black, letterSpacing: 1),
+                            style: const TextStyle(fontSize: 8, color: Colors.green, fontWeight: FontWeight.w900, letterSpacing: 1),
                           ),
                         ],
                       ),

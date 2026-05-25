@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class MaterialsScreen extends StatefulWidget {
   final String selectedBoard;
@@ -136,7 +137,7 @@ class _MaterialsScreenState extends State<MaterialsScreen> {
             'STUDY NOTES & HANDBOOKS',
             style: Theme.of(context).textTheme.headlineMedium?.copyWith(
                   fontSize: isDesktop ? 22 : 16,
-                  fontWeight: FontWeight.black,
+                  fontWeight: FontWeight.w900,
                   letterSpacing: 0.5,
                 ),
           ),

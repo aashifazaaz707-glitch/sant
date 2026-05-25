@@ -40,7 +40,7 @@ class AppTheme {
         labelLarge: GoogleFonts.poppins(fontSize: 11, fontWeight: FontWeight.bold, color: Colors.black45, letterSpacing: 1.5),
       ),
 
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         color: lightSurface,
         elevation: 0,
         shape: RoundedRectangleBorder(
@@ -113,7 +113,7 @@ class AppTheme {
         labelLarge: GoogleFonts.poppins(fontSize: 11, fontWeight: FontWeight.bold, color: Colors.white30, letterSpacing: 1.5),
       ),
 
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         color: darkSurface,
         elevation: 0,
         shape: RoundedRectangleBorder(

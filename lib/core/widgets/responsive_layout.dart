@@ -21,7 +21,7 @@ class _ResponsiveLayoutState extends State<ResponsiveLayout> {
   int _currentIndex = 0;
 
   final List<IconData> _navIcons = [
-    LucideIcons.home,
+    LucideIcons.house,
     LucideIcons.bookOpen,
     LucideIcons.pencil,
     LucideIcons.user,

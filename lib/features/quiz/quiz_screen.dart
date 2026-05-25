@@ -105,7 +105,7 @@ class _QuizScreenState extends State<QuizScreen> {
             'PRACTICE TEST & QUIZZES',
             style: Theme.of(context).textTheme.headlineMedium?.copyWith(
                   fontSize: isDesktop ? 22 : 16,
-                  fontWeight: FontWeight.black,
+                  fontWeight: FontWeight.w900,
                   letterSpacing: 0.5,
                 ),
           ),
@@ -127,7 +127,7 @@ class _QuizScreenState extends State<QuizScreen> {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Row(
-                                    mainAxisAlignment: MainAxisAlignment.between,
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
                                       Container(
                                         padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
@@ -140,7 +140,7 @@ class _QuizScreenState extends State<QuizScreen> {
                                           style: GoogleFonts.poppins(
                                             color: Theme.of(context).colorScheme.primary,
                                             fontSize: 9,
-                                            fontWeight: FontWeight.black,
+                                            fontWeight: FontWeight.w900,
                                           ),
                                         ),
                                       ),
@@ -356,7 +356,7 @@ class _ActiveQuizPageState extends State<ActiveQuizPage> {
       barrierDismissible: false,
       builder: (context) => AlertDialog(
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
-        title: const Text('PRACTICE COMPLETED', style: TextStyle(fontWeight: FontWeight.black)),
+        title: const Text('PRACTICE COMPLETED', style: TextStyle(fontWeight: FontWeight.w900)),
         content: Column(
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -484,7 +484,7 @@ class _ActiveQuizPageState extends State<ActiveQuizPage> {
                     ),
                     padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 16),
                     child: Row(
-                      mainAxisAlignment: MainAxisAlignment.between,
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Expanded(
                           child: Text(

@@ -39,7 +39,7 @@ class HomeScreen extends StatelessWidget {
             'ACTIVE TARGET BATCHES',
             style: Theme.of(context).textTheme.headlineMedium?.copyWith(
                   fontSize: isDesktop ? 22 : 16,
-                  fontWeight: FontWeight.black,
+                  fontWeight: FontWeight.w900,
                   letterSpacing: 0.5,
                 ),
           ),
@@ -81,7 +81,7 @@ class HomeScreen extends StatelessWidget {
               style: GoogleFonts.poppins(
                 color: Colors.white,
                 fontSize: 9,
-                fontWeight: FontWeight.black,
+                fontWeight: FontWeight.w900,
                 letterSpacing: 1,
               ),
             ),
@@ -92,7 +92,7 @@ class HomeScreen extends StatelessWidget {
             style: GoogleFonts.poppins(
               color: Colors.white,
               fontSize: isDesktop ? 48 : 28,
-              fontWeight: FontWeight.black,
+              fontWeight: FontWeight.w900,
               height: 1.1,
             ),
           ),
@@ -208,13 +208,13 @@ class HomeScreen extends StatelessWidget {
             padding: const EdgeInsets.all(20),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
-              mainAxisAlignment: MainAxisAlignment.between,
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Row(
-                      mainAxisAlignment: MainAxisAlignment.between,
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text(
                           b['class'],
@@ -231,7 +231,7 @@ class HomeScreen extends StatelessWidget {
                             style: GoogleFonts.poppins(
                               color: b['textColor'],
                               fontSize: 9,
-                              fontWeight: FontWeight.black,
+                              fontWeight: FontWeight.w900,
                             ),
                           ),
                         ),
@@ -249,7 +249,7 @@ class HomeScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(bottom: 4),
                         child: Row(
                           children: [
-                            const Icon(LucideIcons.checkCircle, color: Colors.green, size: 12),
+                            const Icon(LucideIcons.circleCheck, color: Colors.green, size: 12),
                             const SizedBox(width: 6),
                             Text(
                               b['features'][idx],
@@ -262,7 +262,7 @@ class HomeScreen extends StatelessWidget {
                   ],
                 ),
                 Row(
-                  mainAxisAlignment: MainAxisAlignment.between,
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
                       b['cost'],
