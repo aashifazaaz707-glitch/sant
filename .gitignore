@@ -1,0 +1,43 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate.txt
+
+# IntelliJ-related
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea/workspace.xml
+
+# The directory where the Flutter SDK is installed.
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.dart_tool/
+
+# Android Studio-related
+android-local.properties
+library.properties
+local.properties
+
+# Build artifacts
+build/
+
+# Web-related
+.pub-cache/
+.pub/
+web/client.inject.summary
+
+# Symbol-map files
+*.jfm
+
+# Coverage
+coverage/

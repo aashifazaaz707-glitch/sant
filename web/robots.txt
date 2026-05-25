@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Allow: /assets/
+Disallow: /build/
+
+Sitemap: https://santacademy.in/sitemap.xml
