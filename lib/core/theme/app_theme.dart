@@ -32,7 +32,7 @@ class AppTheme {
       ),
 
       textTheme: TextTheme(
-        headlineLarge: GoogleFonts.poppins(fontSize: 28, fontWeight: FontWeight.extrabold, color: Colors.black87),
+        headlineLarge: GoogleFonts.poppins(fontSize: 28, fontWeight: FontWeight.w800, color: Colors.black87),
         headlineMedium: GoogleFonts.poppins(fontSize: 22, fontWeight: FontWeight.bold, color: Colors.black87),
         titleLarge: GoogleFonts.poppins(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.black87),
         bodyLarge: GoogleFonts.inter(fontSize: 14, fontWeight: FontWeight.normal, color: Colors.black87),
@@ -105,7 +105,7 @@ class AppTheme {
       ),
 
       textTheme: TextTheme(
-        headlineLarge: GoogleFonts.poppins(fontSize: 28, fontWeight: FontWeight.extrabold, color: Colors.white),
+        headlineLarge: GoogleFonts.poppins(fontSize: 28, fontWeight: FontWeight.w800, color: Colors.white),
         headlineMedium: GoogleFonts.poppins(fontSize: 22, fontWeight: FontWeight.bold, color: Colors.white),
         titleLarge: GoogleFonts.poppins(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.white),
         bodyLarge: GoogleFonts.inter(fontSize: 14, fontWeight: FontWeight.normal, color: Colors.white70),
